@@ -1,0 +1,31 @@
+.jkLogo{
+    height:30px;
+}
+
+#menu {
+    /* list-style-type:none;
+    display:block; */
+    float:right;
+    /* overflow:auto; */
+}
+
+#menu > li{
+    float:left;
+}
+
+#introduction{
+    background-image: url('../content/trees-1920x1080.png');
+    height:600px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+
+#introduction > .name{
+    text-align:center;
+}
