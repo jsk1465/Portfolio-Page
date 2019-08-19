@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-page",
+  "version": "1.0.0",
+  "description": "Portfolio Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsk1465/Portfolio-Page.git"
+  },
+  "author": "Jonathon Kirkpatrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsk1465/Portfolio-Page/issues"
+  },
+  "homepage": "https://github.com/jsk1465/Portfolio-Page#readme"
+}
