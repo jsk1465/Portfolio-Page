@@ -12,6 +12,15 @@ body {
     background: url(../img/trees-1920x1080.jpg);
     background-attachment: fixed;
     background-size: cover; }
+  body:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(68, 68, 68, 0.75);
+    z-index: -1; }
 
 h1, h2, h3 {
   margin: 0;
