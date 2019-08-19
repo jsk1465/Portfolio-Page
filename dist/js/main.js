@@ -1,1 +1,1 @@
-$('#menu_HTML').load('_menu.html');
+const curPage = 'home';

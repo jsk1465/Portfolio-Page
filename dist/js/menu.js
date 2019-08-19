@@ -29,3 +29,14 @@ function toggleMenu(){
         showMenu = false;
     }
 }
+
+function setCurrentPage(page){
+    var parser = {
+        'home':'Home',
+        'work':'MyProjects',
+        'contact':'ContactMe',
+        'aboutme':'AboutMe',
+    }
+    var idPage = parser[page.toLowerCase()];
+    $('#'+idPage).addClass('current');
+}
